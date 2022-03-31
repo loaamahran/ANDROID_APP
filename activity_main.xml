@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity"
+   >
+
+    <SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_bar"
+        />
+    <TextView
+        android:id="@+id/text_pizza1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Pizza margrita
+50$"
+
+        android:textSize="30dp"
+        android:layout_toRightOf="@id/img_pizza1"
+        android:layout_below="@+id/search_bar"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/img_pizza1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_below="@+id/search_bar"
+        android:src="@drawable/p1" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_pizza1"
+        android:layout_below="@id/text_pizza1"/>
+
+    <TextView
+        android:id="@+id/text_pizza2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Pizza chicken
+60$"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_toRightOf="@id/img_pizza2"
+        android:layout_below="@id/img_pizza1"
+        />
+
+
+    <ImageView
+        android:id="@+id/img_pizza2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_below="@+id/img_pizza1"
+        android:src="@drawable/p1" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_pizza2"
+        android:layout_below="@id/text_pizza2" />
+
+
+
+
+
+   <ImageView
+       android:id="@+id/img_pizza3"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+
+       android:layout_below="@+id/img_pizza2"
+       android:src="@drawable/p2" />
+
+    <TextView
+        android:id="@+id/text_pizza3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Pizza pepperon
+55$"
+
+        android:textSize="30dp"
+        android:layout_toRightOf="@id/img_pizza3"
+        android:layout_below="@id/img_pizza2"
+        android:textStyle="bold"
+        />
+
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_pizza3"
+        android:layout_below="@id/text_pizza3" />
+
+
+
+
+    <ImageView
+        android:id="@+id/img_pizza4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_below="@+id/img_pizza3"
+        android:src="@drawable/veg" />
+    <TextView
+        android:id="@+id/text_pizza4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Pizza vegeterian
+50$"
+        android:textSize="30dp"
+        android:layout_toRightOf="@id/img_pizza4"
+        android:layout_below="@id/img_pizza3"
+        android:textStyle="bold"/>
+
+
+
+
+    <RatingBar
+        android:id="@+id/ratingBar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_pizza4"
+        android:layout_below="@id/text_pizza4" />
+
+
+
+
+
+
+
+
+</RelativeLayout>
